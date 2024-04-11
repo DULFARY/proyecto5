@@ -1,0 +1,103 @@
+.home{
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    backdrop-filter: blur(2px);
+    display: grid;
+    place-content: center;
+    transition: trasnform 150ms ease; 
+
+
+}
+
+.home_img{
+    width: 676px;
+    height: 121px;
+    top: 256px;
+    left: 389px;
+    gap: 0px;
+    opacity: 0px;
+}
+.home_trainer{
+    width: 662px;
+    height: 40px;
+    color:red;
+    top: 449px;
+    left: 397px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Inter;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 60.51px;
+    text-align: center;
+}
+
+.home_parrafo{
+    font-family: Inter;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 50.26px;
+    text-align: center;
+    width: 662px;
+    height: 30px;
+    top: 505px;
+    left: 396px;
+    gap: 0px;
+    opacity: 0px;
+}
+
+.padre{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: fixed;
+    z-index: 10;
+    bottom: 0;
+}
+
+.rojo{
+    background-color: red;
+    width: 100%;
+    height: 70px;
+    z-index: 5;
+    position: absolute;
+}
+
+.negro{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    z-index: 5;
+    margin-top: 45px; 
+
+}
+.circle{
+    height: 55px;
+    width:55px ;
+    background-color:black;
+    position: absolute;
+    z-index: 6;
+    border-radius: 50%;
+    bottom: 0;
+
+
+
+}
+
+.blanco{
+    height:40px;
+    width:40px ;
+    border: 8px solid white;
+    z-index: 7;
+    position: absolute;
+    border-radius: 60%;
+    bottom: 8px;
+}
+
+
+
+
+

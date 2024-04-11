@@ -1,0 +1,173 @@
+.detail{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    
+}
+   
+
+.color{
+    
+    width: 100%;
+    height: 150px;
+    margin-top: 200px;
+}
+.detail_image{
+    width: 100%;
+    max-width: 300px;
+    margin-top: 3em;
+    height: 314px;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 4em;
+}
+
+.detail_name{
+   font-size: 3.5em;
+   text-transform: capitalize;
+   text-align: center;
+   margin-top: 0.5em;
+
+
+}
+
+.detail_number{
+    border: 1px solid grey;
+    width: 2em;
+    margin-top: 2em;
+    padding: 0.5em 0.4em;
+    
+}
+
+.detalinfo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    width: 80%;
+
+}
+
+.detail_conte1{
+    margin-left: 2em;
+}
+
+.detail_conte2{
+    margin-left: 2.0em;
+
+}
+
+
+.container12{
+    display: flex;
+    flex-flow: row wrap;
+
+ }
+
+
+.detail_value{
+    text-align: center;
+    
+}
+
+.container_type,.container_hability {
+    width: 50%;
+
+
+}
+
+.container3{
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    height: 5em;
+}
+
+.detail_label{
+    text-align: center;
+}
+
+.container_value{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+.detail_valor{
+    border: 1px solid black;
+    max-width: 50%;
+    margin: 0.5em;
+    min-width: 35%;
+    padding: 2px 3px;
+    text-align: center;
+    
+    
+}
+
+.detail_estado{
+    width: 80%;
+
+}
+
+.estado{
+    font-size: 1.8em;
+}
+
+.barra_estado {
+    border: 1px solid black;
+    height:2em ;
+
+}
+
+.color_estado{
+    background: linear-gradient(90deg, #FCD676 -2.25%, #E6901E 133.18%);
+    height:1.9em ;
+
+}
+
+.movimientos{
+    width: 80%;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.movi_poke{
+    font-size: 2em;
+    width: 100%;
+
+}
+
+.move_name{
+    border-radius: 40%;
+    margin: 0.3em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
+    background-color: rgba(229, 229, 229, 1);
+
+}
+
+.imagenes{
+    position:relative;
+    width: 100%;
+
+}
+
+.imagen_franja{
+     position: absolute;
+     width: 100%;
+
+}
+
+.imagen{
+    position: absolute;
+    width: 15em;
+
+
+}
+
+
+

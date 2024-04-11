@@ -1,0 +1,39 @@
+.Form{
+    width: 100%;
+    display: block;
+    margin-bottom: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.1rem;
+    gap: 1;
+}
+   
+
+
+
+.for_input{
+    width: 300px;
+    height: 30px;
+    top: 300spx;
+    left: 10spx;
+    margin-top: 2.5em;
+    gap: 0px;
+    opacity: 0px;
+    border-radius: 0.2em;
+}
+
+.for_btn{
+    width: 200px;
+    height: 30px;
+    top: 595px;
+    left: 841.79px;
+    gap: 0px;
+    border-radius: 0.2em;
+    background: rgba(217, 63, 63, 1);
+    &:hover{
+        filter: brightness(1.2);
+    }
+
+}
